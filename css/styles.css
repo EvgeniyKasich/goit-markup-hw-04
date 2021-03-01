@@ -12,6 +12,7 @@
   --border-color: rgba(238, 238, 238, 1);
   --border-header-color: #ececec;
   --bg-gradient-color: rgba(47, 48, 58, 0.4);
+  --icon-link-color: rgba(175, 177, 184, 1);
 }
 
 /* Body */
@@ -238,13 +239,6 @@ a {
   margin-right: 0px;
 }
 
-.icon-features {
-  display: block;
-  padding: 0;
-  margin: 0;
-  fill: currentColor;
-}
-
 .features .thumb {
   background-color: var(--bg-btn-color);
   height: 120px;
@@ -253,6 +247,13 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
+}
+
+.icon-features {
+  display: block;
+  padding: 0;
+  margin: 0;
+  fill: currentColor;
 }
 
 /* skills */
@@ -347,7 +348,7 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  color: var(--main-text-color);
+  color: var(--icon-link-color);
 }
 
 .social-networ-link .link:hover,
@@ -366,6 +367,7 @@ a {
 
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-address {
@@ -456,7 +458,6 @@ a {
 .portfolio-btn .btn-list:focus {
   background-color: var(--accent-text-color);
   color: var(--white-text-color);
-  border: 1px solid #000000;
   border-radius: 4px;
 }
 
@@ -516,7 +517,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--main-text-color);
+  color: var(--icon-link-color);
 }
 
 .our-clients-list .link:hover,
